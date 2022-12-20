@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: hello-world
-          image: ovidiupopa07/hello-world
+          image: index.docker.io/ovidiupopa07/hello-world
           ports:
             - containerPort: 80
