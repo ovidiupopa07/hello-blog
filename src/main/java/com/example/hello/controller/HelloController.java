@@ -11,6 +11,6 @@ public class HelloController {
 
     @GetMapping(path = "/hello")
     String hello(@RequestParam String name){
-        return "Hello " + name + " !";
+        return "Hello again " + name + " !";
     }
 }
