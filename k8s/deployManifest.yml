@@ -16,17 +16,3 @@ spec:
         - name: hello-world
           image: index.docker.io/ovidiupopa07/hello-world
           imagePullPolicy: Always
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: hello-world-entrypoint
-  namespace: default
-spec:
-  type: NodePort
-  selector:
-    bb: hello-world
-  ports:
-    - port: 30001
-      targetPort: 8080
-      nodePort: 30001
