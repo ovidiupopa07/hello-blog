@@ -1,0 +1,17 @@
+apiVersion: spinnaker.armory.io/v1alpha2
+kind: SpinnakerService
+metadata:
+  name: spinnaker
+spec:
+  spinnakerConfig:
+    config:
+      version: 2.28.0            # Spinnaker version to deploy
+#    service-settings:
+#      clouddriver:
+#        artifactId: 'armory/clouddriver-armory:2022.12.09.17.16.30.master'
+#      echo:
+#        artifactId: 'armory/echo-armory:2022.12.16.15.00.59.master'
+#      deck:
+#        artifactId: 'armory/deck-armory:2022.12.19.13.18.36.master'
+#      orca:
+#        artifactId: 'armory/orca-armory:2022.12.16.18.49.29.master'
