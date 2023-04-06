@@ -13,6 +13,6 @@ public class HelloController {
     String hello(@RequestParam String name) {
 
 
-        return "Hello again " + name + " ! Have a great day!";
+        return "Hello again " + name + " ! Have a great day! Spinnaker is great";
     }
 }
